@@ -3,9 +3,9 @@ $(document).ready(function(){
       e.preventDefault();
       var userAddress = $("#userAddress").val();
       var googleApiUrl = "https://maps.googleapis.com/maps/api/geocode/json?";
-      googleApiUrl += "key=AIzaSyBMRKa7-ZiGt-5oyuW8en1ln_zIDvGRUj0";
+      googleApiUrl += "key=AIzaSyBZLmXraiEgYbduvsEWvgWmfO4Bg8-9Dis";
       googleApiUrl += "&address=" + userAddress;
-      
+
       $.ajax({
         type: "GET",
         url: googleApiUrl,
